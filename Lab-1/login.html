@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS Portal - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+    <div class="aura a1"></div>
+    <div class="aura a2"></div>
+    <div class="aura a3"></div>
+
+    <div class="card">
+        <div class="brand">
+            <div class="logo">PTS</div>
+            <h1>PTS Portal</h1>
+        </div>
+
+        <p class="lead">Welcome back — authenticate to continue</p>
+
+        <form action="processing.html" method="POST" autocomplete="off">
+            <div class="field">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="your.username" required>
+            </div>
+
+            <div class="field">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Enter password" required>
+            </div>
+
+            <button class="btn" type="submit">Sign in</button>
+        </form>
+
+        <p class="note">
+            Restricted training portal for students of
+            <span class="highlight">Eng. Karim Abdelmuttalib</span> — PTS Program.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
